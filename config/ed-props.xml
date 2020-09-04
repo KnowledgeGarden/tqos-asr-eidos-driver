@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<!-- 
+	
+-->
+
+<properties>
+
+	<parameter name="EidosHost" value="localhost" /> <!-- CHANGE ME -->
+	<parameter name="EidosPort" value="9000" /> 
+
+	
+</properties>
+
