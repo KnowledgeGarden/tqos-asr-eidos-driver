@@ -12,13 +12,13 @@ import java.net.*;
  * @author jackpark
  *
  */
-public class Client {
+public class EidosClient {
 	private EDriverEnvironment environment;
 
 	/**
 	 * 
 	 */
-	public Client(EDriverEnvironment env) {
+	public EidosClient(EDriverEnvironment env) {
 		environment = env;
 	}
 

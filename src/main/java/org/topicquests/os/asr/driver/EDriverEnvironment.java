@@ -14,7 +14,7 @@ import net.minidev.json.JSONObject;
  *
  */
 public class EDriverEnvironment extends RootEnvironment implements ISentenceParser {
-	private Client client;
+	private EidosClient client;
 	private final String
 		EIDOS_HOST,
 		EIDOS_PORT,
@@ -23,7 +23,7 @@ public class EDriverEnvironment extends RootEnvironment implements ISentencePars
 	 */
 	public EDriverEnvironment() {
 		super("ed-props.xml", "logger.properties");
-		client = new Client(this);
+		client = new EidosClient(this);
 		EIDOS_HOST = getStringProperty("EidosHost");
 		EIDOS_PORT = getStringProperty("EidosPort");
 		EIDOS_SERVICE = "http://"+EIDOS_HOST+":"+EIDOS_PORT+"/process_text";
