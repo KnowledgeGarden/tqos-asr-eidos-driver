@@ -5,7 +5,7 @@
 
 <properties>
 
-	<parameter name="EidosHost" value="localhost" /> <!-- CHANGE ME -->
+	<parameter name="EidosHost" value="192.168.8.12" /> <!-- CHANGE ME -->
 	<parameter name="EidosPort" value="9000" /> 
 
 	

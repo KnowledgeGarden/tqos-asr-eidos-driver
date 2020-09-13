@@ -13,7 +13,9 @@ public class EDTestFramework {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		new BootTest();
+		//new BootTest();
+		//new FirstTest();
+		new ParagraphTest();
 
 	}
 

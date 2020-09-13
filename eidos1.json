@@ -1,0 +1,1339 @@
+{
+	"@context": {
+		"Argument": "https://w3id.org/wm/cag/argument",
+		"Grounding": "https://w3id.org/wm/cag/grounding",
+		"Interval": "https://w3id.org/wm/cag/interval",
+		"Extraction": "https://w3id.org/wm/cag/extraction",
+		"Provenance": "https://w3id.org/wm/cag/provenance",
+		"Groundings": "https://w3id.org/wm/cag/groundings",
+		"Dependency": "https://w3id.org/wm/cag/dependency",
+		"Corpus": "https://w3id.org/wm/cag/corpus",
+		"Trigger": "https://w3id.org/wm/cag/trigger",
+		"Sentence": "https://w3id.org/wm/cag/sentence",
+		"Word": "https://w3id.org/wm/cag/word",
+		"Document": "https://w3id.org/wm/cag/document"
+	},
+	"@type": "Corpus",
+	"documents": [{
+		"@type": "Document",
+		"@id": "_:Document_1",
+		"text": "The pandemic of obesity, type 2 diabetes mellitus (T2DM) and nonalcoholic fatty liver disease (NAFLD) has frequently been associated with dietary intake of saturated fats (1) and specifically with dietary palm oil (PO) (2).",
+		"sentences": [{
+			"text": "The pandemic of obesity , type 2 diabetes mellitus ( T2DM ) and nonalcoholic fatty liver disease ( NAFLD ) has frequently been associated with dietary intake of saturated fats ( 1 ) and specifically with dietary palm oil ( PO ) ( 2 ) .",
+			"rawText": "The pandemic of obesity, type 2 diabetes mellitus (T2DM) and nonalcoholic fatty liver disease (NAFLD) has frequently been associated with dietary intake of saturated fats (1) and specifically with dietary palm oil (PO) (2).",
+			"words": [{
+				"endOffset": 3,
+				"chunk": "B-NP",
+				"lemma": "the",
+				"tag": "DT",
+				"text": "The",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 0,
+				"@type": "Word",
+				"@id": "_:Word_1"
+			}, {
+				"endOffset": 12,
+				"chunk": "I-NP",
+				"lemma": "pandemic",
+				"tag": "NN",
+				"text": "pandemic",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 4,
+				"@type": "Word",
+				"@id": "_:Word_2"
+			}, {
+				"endOffset": 15,
+				"chunk": "B-PP",
+				"lemma": "of",
+				"tag": "IN",
+				"text": "of",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 13,
+				"@type": "Word",
+				"@id": "_:Word_3"
+			}, {
+				"endOffset": 23,
+				"chunk": "B-NP",
+				"lemma": "obesity",
+				"tag": "NN",
+				"text": "obesity",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 16,
+				"@type": "Word",
+				"@id": "_:Word_4"
+			}, {
+				"endOffset": 24,
+				"chunk": "O",
+				"lemma": ",",
+				"tag": ",",
+				"text": ",",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 23,
+				"@type": "Word",
+				"@id": "_:Word_5"
+			}, {
+				"endOffset": 29,
+				"chunk": "B-NP",
+				"lemma": "type",
+				"tag": "NN",
+				"text": "type",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 25,
+				"@type": "Word",
+				"@id": "_:Word_6"
+			}, {
+				"endOffset": 31,
+				"chunk": "I-NP",
+				"lemma": "2",
+				"tag": "CD",
+				"text": "2",
+				"norm": "2.0",
+				"entity": "NUMBER",
+				"startOffset": 30,
+				"@type": "Word",
+				"@id": "_:Word_7"
+			}, {
+				"endOffset": 40,
+				"chunk": "I-NP",
+				"lemma": "diabetes",
+				"tag": "NN",
+				"text": "diabetes",
+				"norm": "O",
+				"entity": "CAUSE_OF_DEATH",
+				"startOffset": 32,
+				"@type": "Word",
+				"@id": "_:Word_8"
+			}, {
+				"endOffset": 49,
+				"chunk": "I-NP",
+				"lemma": "mellitus",
+				"tag": "NN",
+				"text": "mellitus",
+				"norm": "O",
+				"entity": "CAUSE_OF_DEATH",
+				"startOffset": 41,
+				"@type": "Word",
+				"@id": "_:Word_9"
+			}, {
+				"endOffset": 51,
+				"chunk": "I-NP",
+				"lemma": "(",
+				"tag": "-LRB-",
+				"text": "(",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 50,
+				"@type": "Word",
+				"@id": "_:Word_10"
+			}, {
+				"endOffset": 55,
+				"chunk": "I-NP",
+				"lemma": "t2dm",
+				"tag": "NN",
+				"text": "T2DM",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 51,
+				"@type": "Word",
+				"@id": "_:Word_11"
+			}, {
+				"endOffset": 56,
+				"chunk": "I-NP",
+				"lemma": ")",
+				"tag": "-RRB-",
+				"text": ")",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 55,
+				"@type": "Word",
+				"@id": "_:Word_12"
+			}, {
+				"endOffset": 60,
+				"chunk": "I-NP",
+				"lemma": "and",
+				"tag": "CC",
+				"text": "and",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 57,
+				"@type": "Word",
+				"@id": "_:Word_13"
+			}, {
+				"endOffset": 73,
+				"chunk": "I-NP",
+				"lemma": "nonalcoholic",
+				"tag": "JJ",
+				"text": "nonalcoholic",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 61,
+				"@type": "Word",
+				"@id": "_:Word_14"
+			}, {
+				"endOffset": 79,
+				"chunk": "I-NP",
+				"lemma": "fatty",
+				"tag": "NN",
+				"text": "fatty",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 74,
+				"@type": "Word",
+				"@id": "_:Word_15"
+			}, {
+				"endOffset": 85,
+				"chunk": "I-NP",
+				"lemma": "liver",
+				"tag": "NN",
+				"text": "liver",
+				"norm": "O",
+				"entity": "CAUSE_OF_DEATH",
+				"startOffset": 80,
+				"@type": "Word",
+				"@id": "_:Word_16"
+			}, {
+				"endOffset": 93,
+				"chunk": "I-NP",
+				"lemma": "disease",
+				"tag": "NN",
+				"text": "disease",
+				"norm": "O",
+				"entity": "CAUSE_OF_DEATH",
+				"startOffset": 86,
+				"@type": "Word",
+				"@id": "_:Word_17"
+			}, {
+				"endOffset": 95,
+				"chunk": "I-NP",
+				"lemma": "(",
+				"tag": "-LRB-",
+				"text": "(",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 94,
+				"@type": "Word",
+				"@id": "_:Word_18"
+			}, {
+				"endOffset": 100,
+				"chunk": "I-NP",
+				"lemma": "nafld",
+				"tag": "NN",
+				"text": "NAFLD",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 95,
+				"@type": "Word",
+				"@id": "_:Word_19"
+			}, {
+				"endOffset": 101,
+				"chunk": "B-NP",
+				"lemma": ")",
+				"tag": "-RRB-",
+				"text": ")",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 100,
+				"@type": "Word",
+				"@id": "_:Word_20"
+			}, {
+				"endOffset": 105,
+				"chunk": "B-VP",
+				"lemma": "have",
+				"tag": "VBZ",
+				"text": "has",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 102,
+				"@type": "Word",
+				"@id": "_:Word_21"
+			}, {
+				"endOffset": 116,
+				"chunk": "I-VP",
+				"lemma": "frequently",
+				"tag": "RB",
+				"text": "frequently",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 106,
+				"@type": "Word",
+				"@id": "_:Word_22"
+			}, {
+				"endOffset": 121,
+				"chunk": "I-VP",
+				"lemma": "be",
+				"tag": "VBN",
+				"text": "been",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 117,
+				"@type": "Word",
+				"@id": "_:Word_23"
+			}, {
+				"endOffset": 132,
+				"chunk": "I-VP",
+				"lemma": "associate",
+				"tag": "VBN",
+				"text": "associated",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 122,
+				"@type": "Word",
+				"@id": "_:Word_24"
+			}, {
+				"endOffset": 137,
+				"chunk": "B-PP",
+				"lemma": "with",
+				"tag": "IN",
+				"text": "with",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 133,
+				"@type": "Word",
+				"@id": "_:Word_25"
+			}, {
+				"endOffset": 145,
+				"chunk": "B-NP",
+				"lemma": "dietary",
+				"tag": "JJ",
+				"text": "dietary",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 138,
+				"@type": "Word",
+				"@id": "_:Word_26"
+			}, {
+				"endOffset": 152,
+				"chunk": "I-NP",
+				"lemma": "intake",
+				"tag": "NN",
+				"text": "intake",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 146,
+				"@type": "Word",
+				"@id": "_:Word_27"
+			}, {
+				"endOffset": 155,
+				"chunk": "B-PP",
+				"lemma": "of",
+				"tag": "IN",
+				"text": "of",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 153,
+				"@type": "Word",
+				"@id": "_:Word_28"
+			}, {
+				"endOffset": 165,
+				"chunk": "B-NP",
+				"lemma": "saturated",
+				"tag": "JJ",
+				"text": "saturated",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 156,
+				"@type": "Word",
+				"@id": "_:Word_29"
+			}, {
+				"endOffset": 170,
+				"chunk": "I-NP",
+				"lemma": "fat",
+				"tag": "NNS",
+				"text": "fats",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 166,
+				"@type": "Word",
+				"@id": "_:Word_30"
+			}, {
+				"endOffset": 172,
+				"chunk": "B-NP",
+				"lemma": "(",
+				"tag": "-LRB-",
+				"text": "(",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 171,
+				"@type": "Word",
+				"@id": "_:Word_31"
+			}, {
+				"endOffset": 173,
+				"chunk": "I-NP",
+				"lemma": "1",
+				"tag": "CD",
+				"text": "1",
+				"norm": "1.0",
+				"entity": "NUMBER",
+				"startOffset": 172,
+				"@type": "Word",
+				"@id": "_:Word_32"
+			}, {
+				"endOffset": 174,
+				"chunk": "I-NP",
+				"lemma": ")",
+				"tag": "-RRB-",
+				"text": ")",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 173,
+				"@type": "Word",
+				"@id": "_:Word_33"
+			}, {
+				"endOffset": 178,
+				"chunk": "O",
+				"lemma": "and",
+				"tag": "CC",
+				"text": "and",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 175,
+				"@type": "Word",
+				"@id": "_:Word_34"
+			}, {
+				"endOffset": 191,
+				"chunk": "B-ADVP",
+				"lemma": "specifically",
+				"tag": "RB",
+				"text": "specifically",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 179,
+				"@type": "Word",
+				"@id": "_:Word_35"
+			}, {
+				"endOffset": 196,
+				"chunk": "B-PP",
+				"lemma": "with",
+				"tag": "IN",
+				"text": "with",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 192,
+				"@type": "Word",
+				"@id": "_:Word_36"
+			}, {
+				"endOffset": 204,
+				"chunk": "B-NP",
+				"lemma": "dietary",
+				"tag": "JJ",
+				"text": "dietary",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 197,
+				"@type": "Word",
+				"@id": "_:Word_37"
+			}, {
+				"endOffset": 209,
+				"chunk": "I-NP",
+				"lemma": "palm",
+				"tag": "NN",
+				"text": "palm",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 205,
+				"@type": "Word",
+				"@id": "_:Word_38"
+			}, {
+				"endOffset": 213,
+				"chunk": "I-NP",
+				"lemma": "oil",
+				"tag": "NN",
+				"text": "oil",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 210,
+				"@type": "Word",
+				"@id": "_:Word_39"
+			}, {
+				"endOffset": 215,
+				"chunk": "I-NP",
+				"lemma": "(",
+				"tag": "-LRB-",
+				"text": "(",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 214,
+				"@type": "Word",
+				"@id": "_:Word_40"
+			}, {
+				"endOffset": 217,
+				"chunk": "I-NP",
+				"lemma": "po",
+				"tag": "NN",
+				"text": "PO",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 215,
+				"@type": "Word",
+				"@id": "_:Word_41"
+			}, {
+				"endOffset": 218,
+				"chunk": "I-NP",
+				"lemma": ")",
+				"tag": "-RRB-",
+				"text": ")",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 217,
+				"@type": "Word",
+				"@id": "_:Word_42"
+			}, {
+				"endOffset": 220,
+				"chunk": "I-NP",
+				"lemma": "(",
+				"tag": "-LRB-",
+				"text": "(",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 219,
+				"@type": "Word",
+				"@id": "_:Word_43"
+			}, {
+				"endOffset": 221,
+				"chunk": "I-NP",
+				"lemma": "2",
+				"tag": "CD",
+				"text": "2",
+				"norm": "2.0",
+				"entity": "NUMBER",
+				"startOffset": 220,
+				"@type": "Word",
+				"@id": "_:Word_44"
+			}, {
+				"endOffset": 222,
+				"chunk": "I-NP",
+				"lemma": ")",
+				"tag": "-RRB-",
+				"text": ")",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 221,
+				"@type": "Word",
+				"@id": "_:Word_45"
+			}, {
+				"endOffset": 223,
+				"chunk": "O",
+				"lemma": ".",
+				"tag": ".",
+				"text": ".",
+				"norm": "O",
+				"entity": "O",
+				"startOffset": 222,
+				"@type": "Word",
+				"@id": "_:Word_46"
+			}],
+			"@type": "Sentence",
+			"dependencies": [{
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_24"
+				},
+				"destination": {
+					"@id": "_:Word_34"
+				},
+				"relation": "cc"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_24"
+				},
+				"destination": {
+					"@id": "_:Word_2"
+				},
+				"relation": "nsubjpass"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_32"
+				},
+				"destination": {
+					"@id": "_:Word_33"
+				},
+				"relation": "punct"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_27"
+				},
+				"destination": {
+					"@id": "_:Word_25"
+				},
+				"relation": "case"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_41"
+				},
+				"destination": {
+					"@id": "_:Word_42"
+				},
+				"relation": "punct"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_30"
+				},
+				"destination": {
+					"@id": "_:Word_29"
+				},
+				"relation": "amod"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_24"
+				},
+				"destination": {
+					"@id": "_:Word_24"
+				},
+				"relation": "conj_and"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_30"
+				},
+				"destination": {
+					"@id": "_:Word_28"
+				},
+				"relation": "case"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_4"
+				},
+				"destination": {
+					"@id": "_:Word_3"
+				},
+				"relation": "case"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_17"
+				},
+				"destination": {
+					"@id": "_:Word_15"
+				},
+				"relation": "compound"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_4"
+				},
+				"destination": {
+					"@id": "_:Word_17"
+				},
+				"relation": "conj_and"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_39"
+				},
+				"destination": {
+					"@id": "_:Word_38"
+				},
+				"relation": "compound"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_30"
+				},
+				"destination": {
+					"@id": "_:Word_32"
+				},
+				"relation": "appos"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_41"
+				},
+				"destination": {
+					"@id": "_:Word_40"
+				},
+				"relation": "punct"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_44"
+				},
+				"destination": {
+					"@id": "_:Word_43"
+				},
+				"relation": "punct"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_24"
+				},
+				"destination": {
+					"@id": "_:Word_23"
+				},
+				"relation": "auxpass"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_24"
+				},
+				"destination": {
+					"@id": "_:Word_46"
+				},
+				"relation": "punct"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_9"
+				},
+				"destination": {
+					"@id": "_:Word_6"
+				},
+				"relation": "compound"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_9"
+				},
+				"destination": {
+					"@id": "_:Word_8"
+				},
+				"relation": "compound"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_17"
+				},
+				"destination": {
+					"@id": "_:Word_14"
+				},
+				"relation": "amod"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_27"
+				},
+				"destination": {
+					"@id": "_:Word_26"
+				},
+				"relation": "amod"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_39"
+				},
+				"destination": {
+					"@id": "_:Word_35"
+				},
+				"relation": "advmod"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_24"
+				},
+				"destination": {
+					"@id": "_:Word_27"
+				},
+				"relation": "nmod_with"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_24"
+				},
+				"destination": {
+					"@id": "_:Word_21"
+				},
+				"relation": "aux"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_2"
+				},
+				"destination": {
+					"@id": "_:Word_17"
+				},
+				"relation": "nmod_of"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_2"
+				},
+				"destination": {
+					"@id": "_:Word_4"
+				},
+				"relation": "nmod_of"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_17"
+				},
+				"destination": {
+					"@id": "_:Word_16"
+				},
+				"relation": "compound"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_17"
+				},
+				"destination": {
+					"@id": "_:Word_19"
+				},
+				"relation": "appos"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_11"
+				},
+				"destination": {
+					"@id": "_:Word_10"
+				},
+				"relation": "punct"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_39"
+				},
+				"destination": {
+					"@id": "_:Word_37"
+				},
+				"relation": "amod"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_19"
+				},
+				"destination": {
+					"@id": "_:Word_20"
+				},
+				"relation": "punct"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_39"
+				},
+				"destination": {
+					"@id": "_:Word_41"
+				},
+				"relation": "appos"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_2"
+				},
+				"destination": {
+					"@id": "_:Word_9"
+				},
+				"relation": "nmod_of"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_24"
+				},
+				"destination": {
+					"@id": "_:Word_22"
+				},
+				"relation": "advmod"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_39"
+				},
+				"destination": {
+					"@id": "_:Word_44"
+				},
+				"relation": "appos"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_9"
+				},
+				"destination": {
+					"@id": "_:Word_7"
+				},
+				"relation": "nummod"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_44"
+				},
+				"destination": {
+					"@id": "_:Word_45"
+				},
+				"relation": "punct"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_4"
+				},
+				"destination": {
+					"@id": "_:Word_9"
+				},
+				"relation": "conj_and"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_11"
+				},
+				"destination": {
+					"@id": "_:Word_12"
+				},
+				"relation": "punct"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_4"
+				},
+				"destination": {
+					"@id": "_:Word_13"
+				},
+				"relation": "cc"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_9"
+				},
+				"destination": {
+					"@id": "_:Word_11"
+				},
+				"relation": "appos"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_19"
+				},
+				"destination": {
+					"@id": "_:Word_18"
+				},
+				"relation": "punct"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_32"
+				},
+				"destination": {
+					"@id": "_:Word_31"
+				},
+				"relation": "punct"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_39"
+				},
+				"destination": {
+					"@id": "_:Word_36"
+				},
+				"relation": "case"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_2"
+				},
+				"destination": {
+					"@id": "_:Word_1"
+				},
+				"relation": "det"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_24"
+				},
+				"destination": {
+					"@id": "_:Word_39"
+				},
+				"relation": "nmod_with"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_27"
+				},
+				"destination": {
+					"@id": "_:Word_30"
+				},
+				"relation": "nmod_of"
+			}, {
+				"@type": "Dependency",
+				"source": {
+					"@id": "_:Word_4"
+				},
+				"destination": {
+					"@id": "_:Word_5"
+				},
+				"relation": "punct"
+			}],
+			"@id": "_:Sentence_1"
+		}]
+	}],
+	"extractions": [{
+		"subtype": "entity",
+		"rule": "simple-np++number-stanford",
+		"text": "pandemic of obesity, type 2 diabetes mellitus (T2DM) and nonalcoholic fatty liver disease",
+		"canonicalName": "pandemic obesity diabetes mellitus T2DM nonalcoholic fatty liver disease",
+		"labels": ["Concept", "Entity"],
+		"relevance": 0.7750828266143799,
+		"provenance": [{
+			"documentCharPositions": [{
+				"@type": "Interval",
+				"start": 4,
+				"end": 92
+			}],
+			"document": {
+				"@id": "_:Document_1"
+			},
+			"sentenceWordPositions": [{
+				"@type": "Interval",
+				"start": 2,
+				"end": 17
+			}],
+			"@type": "Provenance",
+			"sentence": {
+				"@id": "_:Sentence_1"
+			}
+		}],
+		"@type": "Extraction",
+		"type": "concept",
+		"groundings": [{
+			"name": "wm_flattened",
+			"versionDate": "2020-08-19T14:42:58Z",
+			"version": "4a840f1a7a3b4c1a9d085fe3c3870417e4acbaf6",
+			"values": [{
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/health_and_life/disease/",
+				"value": 0.8248293995857239
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/health_and_life/disease/human_disease",
+				"value": 0.7936939597129822
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/health_and_life/nutrition/malnutrition",
+				"value": 0.6952306032180786
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/crisis_and_disaster/health/pandemic",
+				"value": 0.6757802963256836
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/crisis_and_disaster/famine",
+				"value": 0.6744796633720398
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/agriculture/livestock_disease",
+				"value": 0.6505534052848816
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/interventions/provide/medical_inputs/vaccine",
+				"value": 0.6497136354446411
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/health_and_life/treatment/health_treatment",
+				"value": 0.6466894745826721
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/agriculture/plant_disease/",
+				"value": 0.6417996883392334
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/interventions/provide/medical_inputs/prevention",
+				"value": 0.60921710729599
+			}],
+			"@type": "Groundings"
+		}],
+		"@id": "_:Extraction_1"
+	}, {
+		"subtype": "correlation",
+		"rule": "syntax_verb-Correlation_with",
+		"text": "pandemic of obesity, type 2 diabetes mellitus (T2DM) and nonalcoholic fatty liver disease (NAFLD) has frequently been associated with dietary intake of saturated fats",
+		"canonicalName": "pandemic obesity diabetes mellitus T2DM nonalcoholic fatty liver disease associated dietary saturated fats",
+		"labels": ["Correlation", "UndirectedRelation", "EntityLinker", "Event"],
+		"relevance": 0.7750828266143799,
+		"provenance": [{
+			"documentCharPositions": [{
+				"@type": "Interval",
+				"start": 4,
+				"end": 169
+			}],
+			"document": {
+				"@id": "_:Document_1"
+			},
+			"sentenceWordPositions": [{
+				"@type": "Interval",
+				"start": 2,
+				"end": 30
+			}],
+			"@type": "Provenance",
+			"sentence": {
+				"@id": "_:Sentence_1"
+			}
+		}],
+		"@type": "Extraction",
+		"type": "relation",
+		"groundings": [{
+			"@type": "Groundings",
+			"name": "wm_flattened",
+			"version": "4a840f1a7a3b4c1a9d085fe3c3870417e4acbaf6",
+			"versionDate": "2020-08-19T14:42:58Z"
+		}],
+		"arguments": [{
+			"@type": "Argument",
+			"type": "argument",
+			"value": {
+				"@id": "_:Extraction_4"
+			}
+		}, {
+			"@type": "Argument",
+			"type": "argument",
+			"value": {
+				"@id": "_:Extraction_1"
+			}
+		}],
+		"@id": "_:Extraction_2",
+		"trigger": {
+			"@type": "Trigger",
+			"text": "associated",
+			"provenance": [{
+				"documentCharPositions": [{
+					"@type": "Interval",
+					"start": 122,
+					"end": 131
+				}],
+				"document": {
+					"@id": "_:Document_1"
+				},
+				"sentenceWordPositions": [{
+					"@type": "Interval",
+					"start": 24,
+					"end": 24
+				}],
+				"@type": "Provenance",
+				"sentence": {
+					"@id": "_:Sentence_1"
+				}
+			}]
+		}
+	}, {
+		"subtype": "correlation",
+		"rule": "syntax_verb-Correlation_with",
+		"text": "pandemic of obesity, type 2 diabetes mellitus (T2DM) and nonalcoholic fatty liver disease (NAFLD) has frequently been associated with dietary intake of saturated fats (1) and specifically with dietary palm oil",
+		"canonicalName": "pandemic obesity diabetes mellitus T2DM nonalcoholic fatty liver disease associated dietary palm oil",
+		"labels": ["Correlation", "UndirectedRelation", "EntityLinker", "Event"],
+		"relevance": 0.7750828266143799,
+		"provenance": [{
+			"documentCharPositions": [{
+				"@type": "Interval",
+				"start": 4,
+				"end": 212
+			}],
+			"document": {
+				"@id": "_:Document_1"
+			},
+			"sentenceWordPositions": [{
+				"@type": "Interval",
+				"start": 2,
+				"end": 39
+			}],
+			"@type": "Provenance",
+			"sentence": {
+				"@id": "_:Sentence_1"
+			}
+		}],
+		"@type": "Extraction",
+		"type": "relation",
+		"groundings": [{
+			"@type": "Groundings",
+			"name": "wm_flattened",
+			"version": "4a840f1a7a3b4c1a9d085fe3c3870417e4acbaf6",
+			"versionDate": "2020-08-19T14:42:58Z"
+		}],
+		"arguments": [{
+			"@type": "Argument",
+			"type": "argument",
+			"value": {
+				"@id": "_:Extraction_5"
+			}
+		}, {
+			"@type": "Argument",
+			"type": "argument",
+			"value": {
+				"@id": "_:Extraction_1"
+			}
+		}],
+		"@id": "_:Extraction_3",
+		"trigger": {
+			"@type": "Trigger",
+			"text": "associated",
+			"provenance": [{
+				"documentCharPositions": [{
+					"@type": "Interval",
+					"start": 122,
+					"end": 131
+				}],
+				"document": {
+					"@id": "_:Document_1"
+				},
+				"sentenceWordPositions": [{
+					"@type": "Interval",
+					"start": 24,
+					"end": 24
+				}],
+				"@type": "Provenance",
+				"sentence": {
+					"@id": "_:Sentence_1"
+				}
+			}]
+		}
+	}, {
+		"subtype": "entity",
+		"rule": "simple-np",
+		"text": "dietary intake of saturated fats",
+		"canonicalName": "dietary saturated fats",
+		"labels": ["Concept", "Entity"],
+		"relevance": 0.7750828266143799,
+		"provenance": [{
+			"documentCharPositions": [{
+				"@type": "Interval",
+				"start": 138,
+				"end": 169
+			}],
+			"document": {
+				"@id": "_:Document_1"
+			},
+			"sentenceWordPositions": [{
+				"@type": "Interval",
+				"start": 26,
+				"end": 30
+			}],
+			"@type": "Provenance",
+			"sentence": {
+				"@id": "_:Sentence_1"
+			}
+		}],
+		"@type": "Extraction",
+		"type": "concept",
+		"groundings": [{
+			"name": "wm_flattened",
+			"versionDate": "2020-08-19T14:42:58Z",
+			"version": "4a840f1a7a3b4c1a9d085fe3c3870417e4acbaf6",
+			"values": [{
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/health_and_life/nutrition/malnutrition",
+				"value": 0.6296811103820801
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/food_security/food_utilization",
+				"value": 0.619114339351654
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/interventions/provide/livelihood_support/nutrition_support",
+				"value": 0.609788715839386
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/food_insecurity/food_nonutilization",
+				"value": 0.5966852307319641
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/health_and_life/nutrition/",
+				"value": 0.5870603919029236
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/health_and_life/nutrition/food_diversity",
+				"value": 0.5844212770462036
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/health_and_life/nutrition/food_preference",
+				"value": 0.5704996585845947
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/food_insecurity/food_unavailability",
+				"value": 0.5463351011276245
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/crisis_and_disaster/famine",
+				"value": 0.5356869101524353
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/food_security/food_production",
+				"value": 0.5288407802581787
+			}],
+			"@type": "Groundings"
+		}],
+		"@id": "_:Extraction_4"
+	}, {
+		"subtype": "entity",
+		"rule": "simple-np",
+		"text": "specifically with dietary palm oil",
+		"canonicalName": "dietary palm oil",
+		"labels": ["Concept", "Entity"],
+		"relevance": 0.7750828266143799,
+		"provenance": [{
+			"documentCharPositions": [{
+				"@type": "Interval",
+				"start": 179,
+				"end": 212
+			}],
+			"document": {
+				"@id": "_:Document_1"
+			},
+			"sentenceWordPositions": [{
+				"@type": "Interval",
+				"start": 35,
+				"end": 39
+			}],
+			"@type": "Provenance",
+			"sentence": {
+				"@id": "_:Sentence_1"
+			}
+		}],
+		"@type": "Extraction",
+		"type": "concept",
+		"groundings": [{
+			"name": "wm_flattened",
+			"versionDate": "2020-08-19T14:42:58Z",
+			"version": "4a840f1a7a3b4c1a9d085fe3c3870417e4acbaf6",
+			"values": [{
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/interventions/provide/agriculture_inputs/crop_production/weed_pest_control/organic",
+				"value": 0.761359453201294
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/economic_and_commerce/economic_activity/market/fuel",
+				"value": 0.6923947334289551
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/economic_and_commerce/economic_activity/market/price_or_cost/oil_price",
+				"value": 0.6914176344871521
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/economic_and_commerce/economic_activity/market/transaction/oil_transaction",
+				"value": 0.6776204109191895
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/environmental/natural_resources/fossil_fuels",
+				"value": 0.6368532776832581
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/agriculture/crop_production",
+				"value": 0.6360586881637573
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/interventions/provide/livelihood_support/nutrition_support",
+				"value": 0.6296411752700806
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/food_security/food_utilization",
+				"value": 0.6144651174545288
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/economic_and_commerce/economic_activity/market/supply/food_supply",
+				"value": 0.6092303395271301
+			}, {
+				"@type": "Grounding",
+				"ontologyConcept": "wm/concept/causal_factor/health_and_life/nutrition/food_diversity",
+				"value": 0.6064835786819458
+			}],
+			"@type": "Groundings"
+		}],
+		"@id": "_:Extraction_5"
+	}]
+}
