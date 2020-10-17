@@ -16,6 +16,7 @@ public class EDTestFramework {
 		//new BootTest();
 		//new FirstTest();
 		new ParagraphTest();
+		//new SecondSentenceTest();
 
 	}
 
